@@ -167,7 +167,7 @@ void WalkMesh::walk_in_triangle(WalkPoint const &start, glm::vec3 const &step, W
 		float eps = 1e-6f; // floating point errors...
 		if (end.weights.y < eps)
 			end = WalkPoint(glm::uvec3{end.indices.z, end.indices.x, end.indices.y},
-				glm::vec3{end.weights.z, end.weights.x + end.weights.y, 0.0f});
+				glm::vec3{end.weights.z, end.weights.x + end.weights.y, 0.0f}); // preserve weight sum
 		else if (end.weights.x < eps)
 			end = WalkPoint(glm::uvec3{end.indices.y, end.indices.z, end.indices.x},
 				glm::vec3{end.weights.y, end.weights.z + end.weights.x, 0.0f});
