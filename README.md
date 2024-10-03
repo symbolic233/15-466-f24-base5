@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# snow globe walk
 
-Author: (TODO: your name)
+Author: Yoseph Mak
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: This is a walking simulator where you walk inside a snowglobe, so you walk inside the mesh instead of outside it.
 
 Screen Shot:
 
@@ -10,9 +10,10 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Use the WASD keys to walk around inside the snow globe. If you need to rotate the camera, use the mouse, and press escape to cancel mouse rotation.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources:
+All assets were made by me.
 
 This game was built with [NEST](NEST.md).
 
